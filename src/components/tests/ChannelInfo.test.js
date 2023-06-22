@@ -37,7 +37,7 @@ describe("ChannelInfo", () => {
   it("renders with URL", async () => {
     renderChannelInfoWithCallback(() => "url");
 
-    await waitFor(() => expect(screen.getByRole("img")).toBeInTheDocument());
+    await screen.findByRole("img");
   });
 
   // 반복되는 render 줄이기 + mockImplementation 반복 줄이기
