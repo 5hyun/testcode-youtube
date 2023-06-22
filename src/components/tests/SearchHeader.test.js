@@ -3,7 +3,6 @@ import { Route } from "react-router-dom";
 import renderer from "react-test-renderer";
 import SearchHeader from "../SearchHeader";
 import { render, screen } from "@testing-library/react";
-import * as path from "path";
 import userEvent from "@testing-library/user-event";
 
 describe("SearchHeader", () => {
