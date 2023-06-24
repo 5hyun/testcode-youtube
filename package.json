@@ -18,6 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll",
     "test:coverage": "yarn test --coverage --watchAll",
+    "cypress": "cypress open",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,9 +41,11 @@
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.2",
+    "@testing-library/cypress": "^9.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "cypress": "^12.15.0",
     "eslint-config-react-app": "^7.0.1",
     "react-test-renderer": "^18.2.0",
     "tailwindcss": "^3.2.1"
